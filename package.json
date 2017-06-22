@@ -1,0 +1,39 @@
+{
+    "name": "Ganescha-sshguard",
+    "version": "0.0.1",
+    "description": "A basic setup for sshguard on CoreOS aka Container Linux",
+    "scripts": {
+        "start": "rm -rf package-lock.json && rm -rf node_modules/ && npm install && npm update && grunt"
+    },
+    "keywords": [
+        "sshguard",
+        "Ganescha"
+    ],
+    "author": {
+        "name": "Zoran Milanovic",
+        "url": "https://twitter.com/zomilanovic"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/GaneschaLabs-OS/Ganescha-sshguard"
+    },
+    "bugs": {
+        "url": "https://github.com/GaneschaLabs-OS/Ganescha-sshguard/issues"
+    },
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "grunt": "1.0.1",
+        "grunt-cowsay": "0.1.2",
+        "grunt-exec": "^1.0.1",
+        "grunt-markdown-toc": "0.0.2",
+        "grunt-markdownlint": "1.0.26",
+        "grunt-md-link-checker": "0.1.1",
+        "grunt-license-report": "0.0.8",
+        "grunt-merge-conflict": "0.0.2",
+        "grunt-minor-major-milestone": "^0.1.1",
+        "load-grunt-tasks": "3.5.2",
+        "time-grunt": "1.4.0"
+    },
+    "optionalDependencies": {}
+}

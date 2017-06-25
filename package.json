@@ -1,6 +1,6 @@
 {
     "name": "Ganescha-sshguard",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A basic setup for sshguard on CoreOS aka Container Linux",
     "scripts": {
         "start": "rm -rf package-lock.json && rm -rf node_modules/ && npm install && npm update && grunt"
